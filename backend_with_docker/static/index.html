@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Авторизация</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Авторизация</h2>
+        <form id="loginForm">
+            <input type="text" id="loginUser" placeholder="Логин" required>
+            <input type="password" id="loginPass" placeholder="Пароль" required>
+            <button type="submit">Войти</button>
+        </form>
+        
+        <h2>Регистрация</h2>
+        <form id="registerForm">
+            <input type="text" id="regUser" placeholder="Логин" required>
+            <input type="password" id="regPass" placeholder="Пароль" required>
+            <button type="submit">Зарегистрироваться</button>
+        </form>
+
+        <button id="logoutBtn" style="display:none;">Выйти</button>
+        <p id="status"></p>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
